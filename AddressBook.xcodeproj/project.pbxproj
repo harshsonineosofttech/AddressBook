@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120B51DC2371ED5300A5B851 /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B51DB2371ED5300A5B851 /* AddContactsViewController.swift */; };
+		120B51E22371F03B00A5B851 /* AddContactsTableViewTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B51E02371F03B00A5B851 /* AddContactsTableViewTextFieldCell.swift */; };
+		120B51E32371F03B00A5B851 /* AddContactsTableViewTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120B51E12371F03B00A5B851 /* AddContactsTableViewTextFieldCell.xib */; };
+		120B51E62371F8FB00A5B851 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B51E52371F8FB00A5B851 /* ContactDetailViewController.swift */; };
+		120B51EA2371FC0400A5B851 /* AddContactsTableViewTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B51E82371FC0400A5B851 /* AddContactsTableViewTextViewCell.swift */; };
+		120B51EB2371FC0400A5B851 /* AddContactsTableViewTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120B51E92371FC0400A5B851 /* AddContactsTableViewTextViewCell.xib */; };
+		122D7BDC2371B3DC00DB1988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D7BDB2371B3DC00DB1988 /* AppDelegate.swift */; };
+		122D7BDE2371B3DC00DB1988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D7BDD2371B3DC00DB1988 /* SceneDelegate.swift */; };
+		122D7BE02371B3DC00DB1988 /* BaseLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D7BDF2371B3DC00DB1988 /* BaseLineViewController.swift */; };
+		122D7BE52371B3E000DB1988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122D7BE42371B3E000DB1988 /* Assets.xcassets */; };
+		122D7BE82371B3E000DB1988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122D7BE62371B3E000DB1988 /* LaunchScreen.storyboard */; };
+		128A06F02372669C00BC063E /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128A06EF2372669C00BC063E /* ContactCard.swift */; };
+		1292EF722371CC010095991A /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1292EF712371CC010095991A /* Color.xcassets */; };
+		1292EF732371CE480095991A /* BaseLine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122D7BE12371B3DC00DB1988 /* BaseLine.storyboard */; };
+		12CA94EA237270190006894B /* RealmConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA94E9237270190006894B /* RealmConnector.swift */; };
+		12CA94ED237276B50006894B /* AddContactsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA94EC237276B50006894B /* AddContactsEnum.swift */; };
+		12CA94F0237281A70006894B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA94EF237281A70006894B /* String+Extension.swift */; };
+		6E0BE938F544C62DA4A75B2C /* Pods_AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257B08F934EE98EDB1B243DC /* Pods_AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120B51DB2371ED5300A5B851 /* AddContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
+		120B51E02371F03B00A5B851 /* AddContactsTableViewTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsTableViewTextFieldCell.swift; sourceTree = "<group>"; };
+		120B51E12371F03B00A5B851 /* AddContactsTableViewTextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddContactsTableViewTextFieldCell.xib; sourceTree = "<group>"; };
+		120B51E52371F8FB00A5B851 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		120B51E82371FC0400A5B851 /* AddContactsTableViewTextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsTableViewTextViewCell.swift; sourceTree = "<group>"; };
+		120B51E92371FC0400A5B851 /* AddContactsTableViewTextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddContactsTableViewTextViewCell.xib; sourceTree = "<group>"; };
+		122D7BD82371B3DC00DB1988 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		122D7BDB2371B3DC00DB1988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		122D7BDD2371B3DC00DB1988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		122D7BDF2371B3DC00DB1988 /* BaseLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLineViewController.swift; sourceTree = "<group>"; };
+		122D7BE22371B3DC00DB1988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BaseLine.storyboard; sourceTree = "<group>"; };
+		122D7BE42371B3E000DB1988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		122D7BE72371B3E000DB1988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		122D7BE92371B3E000DB1988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128A06EF2372669C00BC063E /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		1292EF712371CC010095991A /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		12CA94E9237270190006894B /* RealmConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConnector.swift; sourceTree = "<group>"; };
+		12CA94EC237276B50006894B /* AddContactsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsEnum.swift; sourceTree = "<group>"; };
+		12CA94EF237281A70006894B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		257B08F934EE98EDB1B243DC /* Pods_AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02628BC20C67355DBB7D9BD /* Pods-AddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.release.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.release.xcconfig"; sourceTree = "<group>"; };
+		D34072EF0CF64D20F600D93A /* Pods-AddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.debug.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		122D7BD52371B3DC00DB1988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0BE938F544C62DA4A75B2C /* Pods_AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120B51DA2371ED3D00A5B851 /* AddContacts */ = {
+			isa = PBXGroup;
+			children = (
+				120B51E72371FBDD00A5B851 /* AddContactsTableViewTextViewCell */,
+				120B51DD2371F00500A5B851 /* AddContactsTableViewCell */,
+				120B51DB2371ED5300A5B851 /* AddContactsViewController.swift */,
+			);
+			path = AddContacts;
+			sourceTree = "<group>";
+		};
+		120B51DD2371F00500A5B851 /* AddContactsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				120B51E02371F03B00A5B851 /* AddContactsTableViewTextFieldCell.swift */,
+				120B51E12371F03B00A5B851 /* AddContactsTableViewTextFieldCell.xib */,
+			);
+			path = AddContactsTableViewCell;
+			sourceTree = "<group>";
+		};
+		120B51E42371F8E400A5B851 /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				120B51E52371F8FB00A5B851 /* ContactDetailViewController.swift */,
+			);
+			path = ContactDetail;
+			sourceTree = "<group>";
+		};
+		120B51E72371FBDD00A5B851 /* AddContactsTableViewTextViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				120B51E82371FC0400A5B851 /* AddContactsTableViewTextViewCell.swift */,
+				120B51E92371FC0400A5B851 /* AddContactsTableViewTextViewCell.xib */,
+			);
+			path = AddContactsTableViewTextViewCell;
+			sourceTree = "<group>";
+		};
+		122D7BCF2371B3DC00DB1988 = {
+			isa = PBXGroup;
+			children = (
+				122D7BDA2371B3DC00DB1988 /* AddressBook */,
+				122D7BD92371B3DC00DB1988 /* Products */,
+				92C2B85B4A05D46AE917E62E /* Pods */,
+				642E709D42E2B7F851360C27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		122D7BD92371B3DC00DB1988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				122D7BD82371B3DC00DB1988 /* AddressBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122D7BDA2371B3DC00DB1988 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				120B51DA2371ED3D00A5B851 /* AddContacts */,
+				122D7BDB2371B3DC00DB1988 /* AppDelegate.swift */,
+				122D7BE42371B3E000DB1988 /* Assets.xcassets */,
+				1292EF6E2371CA660095991A /* BaseLine */,
+				120B51E42371F8E400A5B851 /* ContactDetail */,
+				128A06EE2372667D00BC063E /* DataBaseModel */,
+				122D7BE92371B3E000DB1988 /* Info.plist */,
+				122D7BE62371B3E000DB1988 /* LaunchScreen.storyboard */,
+				12CA94E8237270080006894B /* RealmConnector */,
+				122D7BDD2371B3DC00DB1988 /* SceneDelegate.swift */,
+				1292EF6F2371CBCA0095991A /* Utilities */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		128A06EE2372667D00BC063E /* DataBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				128A06EF2372669C00BC063E /* ContactCard.swift */,
+			);
+			path = DataBaseModel;
+			sourceTree = "<group>";
+		};
+		1292EF6E2371CA660095991A /* BaseLine */ = {
+			isa = PBXGroup;
+			children = (
+				122D7BDF2371B3DC00DB1988 /* BaseLineViewController.swift */,
+				122D7BE12371B3DC00DB1988 /* BaseLine.storyboard */,
+			);
+			path = BaseLine;
+			sourceTree = "<group>";
+		};
+		1292EF6F2371CBCA0095991A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				12CA94EE2372817C0006894B /* Extensions */,
+				12CA94EB237276860006894B /* Enums */,
+				1292EF702371CBE10095991A /* Theme */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1292EF702371CBE10095991A /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1292EF712371CC010095991A /* Color.xcassets */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		12CA94E8237270080006894B /* RealmConnector */ = {
+			isa = PBXGroup;
+			children = (
+				12CA94E9237270190006894B /* RealmConnector.swift */,
+			);
+			path = RealmConnector;
+			sourceTree = "<group>";
+		};
+		12CA94EB237276860006894B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				12CA94EC237276B50006894B /* AddContactsEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		12CA94EE2372817C0006894B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12CA94EF237281A70006894B /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		642E709D42E2B7F851360C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				257B08F934EE98EDB1B243DC /* Pods_AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C2B85B4A05D46AE917E62E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D34072EF0CF64D20F600D93A /* Pods-AddressBook.debug.xcconfig */,
+				A02628BC20C67355DBB7D9BD /* Pods-AddressBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		122D7BD72371B3DC00DB1988 /* AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122D7BEC2371B3E000DB1988 /* Build configuration list for PBXNativeTarget "AddressBook" */;
+			buildPhases = (
+				99F2E02A5CDAA566F95DB2A6 /* [CP] Check Pods Manifest.lock */,
+				122D7BD42371B3DC00DB1988 /* Sources */,
+				122D7BD52371B3DC00DB1988 /* Frameworks */,
+				122D7BD62371B3DC00DB1988 /* Resources */,
+				12A5A9772371B8310055351E /* SwiftLint */,
+				DEEFF5B7A931B3CA319ACD50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBook;
+			productName = AddressBook;
+			productReference = 122D7BD82371B3DC00DB1988 /* AddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		122D7BD02371B3DC00DB1988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Pratik Hirve";
+				TargetAttributes = {
+					122D7BD72371B3DC00DB1988 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 122D7BD32371B3DC00DB1988 /* Build configuration list for PBXProject "AddressBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 122D7BCF2371B3DC00DB1988;
+			productRefGroup = 122D7BD92371B3DC00DB1988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122D7BD72371B3DC00DB1988 /* AddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		122D7BD62371B3DC00DB1988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1292EF732371CE480095991A /* BaseLine.storyboard in Resources */,
+				122D7BE82371B3E000DB1988 /* LaunchScreen.storyboard in Resources */,
+				120B51EB2371FC0400A5B851 /* AddContactsTableViewTextViewCell.xib in Resources */,
+				1292EF722371CC010095991A /* Color.xcassets in Resources */,
+				120B51E32371F03B00A5B851 /* AddContactsTableViewTextFieldCell.xib in Resources */,
+				122D7BE52371B3E000DB1988 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A5A9772371B8310055351E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		99F2E02A5CDAA566F95DB2A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEFF5B7A931B3CA319ACD50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122D7BD42371B3DC00DB1988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122D7BE02371B3DC00DB1988 /* BaseLineViewController.swift in Sources */,
+				12CA94F0237281A70006894B /* String+Extension.swift in Sources */,
+				120B51DC2371ED5300A5B851 /* AddContactsViewController.swift in Sources */,
+				12CA94EA237270190006894B /* RealmConnector.swift in Sources */,
+				12CA94ED237276B50006894B /* AddContactsEnum.swift in Sources */,
+				128A06F02372669C00BC063E /* ContactCard.swift in Sources */,
+				120B51EA2371FC0400A5B851 /* AddContactsTableViewTextViewCell.swift in Sources */,
+				120B51E22371F03B00A5B851 /* AddContactsTableViewTextFieldCell.swift in Sources */,
+				122D7BDC2371B3DC00DB1988 /* AppDelegate.swift in Sources */,
+				122D7BDE2371B3DC00DB1988 /* SceneDelegate.swift in Sources */,
+				120B51E62371F8FB00A5B851 /* ContactDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		122D7BE12371B3DC00DB1988 /* BaseLine.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122D7BE22371B3DC00DB1988 /* Base */,
+			);
+			name = BaseLine.storyboard;
+			sourceTree = "<group>";
+		};
+		122D7BE62371B3E000DB1988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122D7BE72371B3E000DB1988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		122D7BEA2371B3E000DB1988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		122D7BEB2371B3E000DB1988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		122D7BED2371B3E000DB1988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34072EF0CF64D20F600D93A /* Pods-AddressBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T5D5NXG2;
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		122D7BEE2371B3E000DB1988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02628BC20C67355DBB7D9BD /* Pods-AddressBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T5D5NXG2;
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		122D7BD32371B3DC00DB1988 /* Build configuration list for PBXProject "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122D7BEA2371B3E000DB1988 /* Debug */,
+				122D7BEB2371B3E000DB1988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122D7BEC2371B3E000DB1988 /* Build configuration list for PBXNativeTarget "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122D7BED2371B3E000DB1988 /* Debug */,
+				122D7BEE2371B3E000DB1988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 122D7BD02371B3DC00DB1988 /* Project object */;
+}
